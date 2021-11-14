@@ -3,6 +3,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# midi files
+*.mid
+*.mp3
+*.musicxml
+
 # C extensions
 *.so
 
