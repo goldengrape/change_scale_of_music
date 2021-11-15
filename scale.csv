@@ -1,0 +1,12 @@
+Ionian,C,D,E,F,G,A,B
+Aeolian,C,D,Eb,F,G,Ab,Bb
+Dorian,C,D,Eb,F,G,A,Bb
+Phrygian,C,Db,Eb,F,G,Ab,Bb
+Lydian,C,D ,E,Gb,G,A,B
+Mixolydian,C,D,E,F,G,A,Bb
+Locrian,C,Db,Eb,F,Gb,Ab,Bb
+Harmonic_Minor,C,D,Eb,F,G,Ab,B
+Blues,C,Db,Eb,F,Gb,G,Bb
+major_pentatonic,C,D,E,G,A
+japanese_pentatonic,C,Db,F,G,Ab
+minor_pentatonic,C,Eb,F,G,Bb
