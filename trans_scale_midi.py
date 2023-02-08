@@ -118,7 +118,7 @@ def trans_scale(note, scale_origin, scale_target):
 # # 读取并遍历midi文件
 
 # %%
-def trans_music(input_file, output_file,
+def trans_music(mid, output_file,
                 scale_file, 
                 origin_scale_name, origin_root, 
                 target_scale_name, target_root):
@@ -127,7 +127,7 @@ def trans_music(input_file, output_file,
     origin_scale=scale[origin_scale_name.upper()]
     target_scale=scale[target_scale_name.upper()]
     
-    mid = MidiFile(input_file, clip=True)
+    # mid = MidiFile(input_file, clip=True)
     for track in mid.tracks:
         for msg in track:
             if (msg.type=='note_on'):
@@ -136,7 +136,7 @@ def trans_music(input_file, output_file,
                 target_pitch=name_to_pitch(target_name,origin_octave,target_root)
                 msg.note=target_pitch
     mid.save(output_file)
-    return True 
+    return True  
 
 
 

@@ -7,6 +7,7 @@ __pycache__/
 *.mid
 *.mp3
 *.musicxml
+temp/
 
 # C extensions
 *.so
